@@ -1,0 +1,126 @@
+/* 8.14 version */
+/* Widget CSS */
+
+.widget_iphods_widget ul.iphods-item-list.grid:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.widget_iphods_widget ul.iphods-item-list.grid li {
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	font-size: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+
+.widget_iphods_widget ul.iphods-item-list.grid li a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+/* Shortcode CSS */
+
+div#content div.entry-content ul.iphods-item-list:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+div#content div.entry-content ul.iphods-item-list.grid li {
+	float: left;
+	list-style-type: none;
+	margin-left: 0px;
+	text-align: center;
+}
+
+
+ul.iphods-item-list.columns-1 li {
+	width: 100%;
+}
+
+ul.iphods-item-list.columns-2 li {
+	width: 50%;
+}
+
+ul.iphods-item-list.columns-3 li {
+	width: 33%;
+}
+
+ul.iphods-item-list.columns-4 li {
+	width: 25%;
+}
+
+ul.iphods-item-list.columns-5 li {
+	width: 20%;
+}
+
+ul.iphods-item-list.columns-6 li {
+	width: 16.66%;
+}
+
+ul.iphods-item-list.columns-7 li {
+	width: 14.28%;
+}
+
+ul.iphods-item-list.columns-8 li {
+	width: 12.5%;
+}
+
+ul.iphods-item-list.columns-9 li {
+	width: 11.1%;
+}
+
+ul.iphods-item-list.columns-10 li {
+	width: 10%;
+}
+
+
+div#content div.entry-content ul.iphods-item-list li.first {
+	clear: left;
+}
+
+
+/* List View */
+
+div#content div.entry-content ul.iphods-item-list.list {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+div#content div.entry-content ul.iphods-item-list.list li {
+	float: none;
+	width: 100%;
+	list-style-type: none;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	text-align: left;
+	clear: left;
+}
+
+div#content div.entry-content ul.iphods-item-list.list li img {
+	float: left;
+	margin-right: 10px;
+}
+
+
+/* Backlink css */
+
+div.backlink {
+	font-size: .75em;
+	text-align: center;
+}
+
+div.backlink a {
+	border-bottom: 1px #333 dotted;
+	text-decoration: none !important;
+}
